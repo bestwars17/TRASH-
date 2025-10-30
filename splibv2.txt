@@ -11,7 +11,7 @@ local PlayerMouse = Player:GetMouse()
 local splib = {
     Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/as6cd0/splibv2/main/Themes.lua"))(),
     Info = {
-        Version = "تم الاختراق لا تللعب مع يوسف وفهد "
+        Version = "1.1.5"
     },
     Save = {
         UISize = {550, 380},
@@ -303,7 +303,7 @@ splib.Save = {
 local bindConnections = {}
 local shouldClearToggles = false
 
-local GUI_NAME = "تم الاختراق 😂😂"
+local GUI_NAME = "sp Library"
 local oldGui = CoreGui:FindFirstChild(GUI_NAME)
 if oldGui then
     for _, conn in ipairs(bindConnections) do
